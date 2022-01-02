@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+
+ /*insertion at begining*/
+
  int i,n,num;
  cout<<"enter the size of the array:"<<endl;
  cin>>n;
@@ -19,9 +22,9 @@ int main()
  cout<<"inserting element into the array:"<<endl;
  for(i=n-1;i>=0;i--)
  {
-     a[i+1]=a[i];
- }
- a[0]=num;
+     a[i+1]=a[i];                    //for getting space in index 0 we are moving the elements      
+ }                                                               
+ a[0]=num;                                    
  n++;
  cout<<"displaying the elements:"<<endl;
 for(i=0;i<n;i++)
