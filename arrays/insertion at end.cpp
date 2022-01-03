@@ -15,7 +15,7 @@ int main()
     cout<<"enter the element to be insertd:"<<endl;
     cin>>num;
     a[n]=num;
-    n++;
+    n++;       //increased the size
     cout<<"displaying the elements:"<<endl;;
     for(i=0;i<n;i++)
     {
