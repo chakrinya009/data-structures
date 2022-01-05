@@ -20,7 +20,7 @@ int main()
     }
 
     a[size]=a[pos-1];
-    a[pos-1]=num;
+    a[pos-1]=num;        //look at here
     size++;
 
     cout<<"display the elements:"<<endl;
